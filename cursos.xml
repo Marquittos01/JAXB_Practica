@@ -9,10 +9,6 @@
             <edad>18</edad>
             <nombre>Cristian Torres</nombre>
         </estudiante>
-        <estudiante>
-            <edad>19</edad>
-            <nombre>Raúl Pérez</nombre>
-        </estudiante>
         <nombre>Curso de Sistemas Informáticos</nombre>
     </curso>
     <curso>
