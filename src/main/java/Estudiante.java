@@ -1,36 +1,36 @@
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement // RAÍZ DEL ELEMENTO XML
+@XmlRootElement
 public class Estudiante {
 
-    private String nombre; // NOMBRE DEL ESTUDIANTE
-    private int edad; // EDAD DEL ESTUDIANTE
+    private String nombre;
+    private int edad;
 
     // CONSTRUCTORES
-    public Estudiante() {} // CONSTRUCTOR VACÍO
+    public Estudiante() {}
 
     public Estudiante(String nombre, int edad) {
-        this.nombre = nombre; // ASIGNAR NOMBRE
-        this.edad = edad; // ASIGNAR EDAD
+        this.nombre = nombre;
+        this.edad = edad;
     }
 
     //GETTERS / SETTERS
-    @XmlElement // ANOTACIÓN JAXB PARA EL NOMBRE
+    @XmlElement
     public String getNombre() {
-        return nombre; // RETORNAR NOMBRE
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        this.nombre = nombre; // ASIGNAR NOMBRE
+        this.nombre = nombre;
     }
 
-    @XmlElement // ANOTACIÓN JAXB PARA LA EDAD
+    @XmlElement
     public int getEdad() {
-        return edad; // RETORNAR EDAD
+        return edad;
     }
 
     public void setEdad(int edad) {
-        this.edad = edad; // ASIGNAR EDAD
+        this.edad = edad;
     }
 }
