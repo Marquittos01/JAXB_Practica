@@ -1,6 +1,6 @@
-import java.io.File; // IMPORTAR CLASES NECESARIAS
-import javax.xml.bind.JAXBException; // IMPORTAR JAXB EXCEPCIÓN
-import java.util.ArrayList; // IMPORTAR ARRAYLIST
+import java.io.File;
+import javax.xml.bind.JAXBException;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,7 +21,7 @@ public class Main {
 
                 } catch (ClassCastException e) {
 
-                    //SI EL ARCHIVO NO TIENE UN CURSO VÁLIDO, CREAR NUEVO CURSO
+                    //SI EL ARCHIVO NO ES UN CURSO VÁLIDO, CREAR NUEVO CURSO
                     System.out.println("El archivo no es un curso válido, se creará un nuevo Curso.");
                     cursos = new Cursos();
                     cursos.setCurso(new ArrayList<>());
@@ -64,6 +64,7 @@ public class Main {
             System.out.println("Estudiante añadido correctamente al archivo XML.");
 
         } catch (JAXBException e) {
+            
             // IMPRIMIR ERRORES
             e.printStackTrace();
             System.out.println("Error al procesar el archivo XML.");
