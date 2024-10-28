@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cursos>
+    <curso>
+        <estudiante>
+            <edad>21</edad>
+            <nombre>Raúl Fernandez</nombre>
+        </estudiante>
+        <estudiante>
+            <edad>18</edad>
+            <nombre>Cristian Torres</nombre>
+        </estudiante>
+        <estudiante>
+            <edad>19</edad>
+            <nombre>Raúl Pérez</nombre>
+        </estudiante>
+        <nombre>Curso de Sistemas Informáticos</nombre>
+    </curso>
+    <curso>
+        <estudiante>
+            <edad>19</edad>
+            <nombre>Juan Vázquez</nombre>
+        </estudiante>
+        <nombre>Curso de Programación</nombre>
+    </curso>
+</cursos>
